@@ -1,0 +1,15 @@
+baseURL = 'https://sojunie.github.io/'
+languageCode = 'en-us'
+title = 'Simple Blog'
+theme = 'hugo-simple'
+copyright = "© 2025 Seojun Cha"
+enableRobotsTXT = true
+
+[[menu.main]]
+name = "Home"
+pageRef = "/"
+weight = 10
+[[menu.main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 20
