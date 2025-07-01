@@ -1,6 +1,6 @@
-baseURL = 'https://sojunie.github.io/'
+baseURL = 'https://sojunie.github.io'
 languageCode = 'en-us'
-title = 'Simple Blog'
+title = 'Seojun Blog'
 theme = 'hugo-simple'
 copyright = "© 2025 Seojun Cha"
 enableRobotsTXT = true
@@ -13,3 +13,13 @@ weight = 10
 name = "Blog"
 pageRef = "/blog"
 weight = 20
+
+[markup.highlight]
+noClasses = true
+tabWidth = 2
+style = "xcode-dark"
+
+[params]
+env = "production"
+comments = true
+
